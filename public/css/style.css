@@ -1,3 +1,51 @@
+/* Geral */
 *{font-family: 'Roboto'}
 
-h1{color: red;}
+body{
+    min-width: 100vh;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+header{
+    background-color: #FFF;
+    border-bottom: 1px solid #CCC;
+}
+
+.row{margin: 0px;}
+
+/* busca-container */
+
+#busca-container{
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#busca-container h1{
+    color: #FFF;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#busca-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#events-container .card{
+    flex: 1 1 0;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: 5px;
+}
+
+#events-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
