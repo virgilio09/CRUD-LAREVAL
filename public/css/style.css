@@ -12,6 +12,16 @@ header{
     border-bottom: 1px solid #CCC;
 }
 
+.msg{
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
 .row{margin: 0px;}
 
 /* busca-container */
