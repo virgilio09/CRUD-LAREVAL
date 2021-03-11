@@ -26,6 +26,22 @@
 				<option value="1">sim</option>
 			</select>
     </div>
+
+		<div class="form-group">
+			<label for="titulo">Adicione itens:</label>
+			<div class="form-group">
+				<input type="checkbox" name="itens[]" value="Cadeira"> Cadeira
+			</div>
+			<div class="form-group">
+				<input type="checkbox" name="itens[]" value="Palco"> Palco
+			</div>
+			<div class="form-group">
+				<input type="checkbox" name="itens[]" value="Brindes"> Brindes
+			</div>
+			
+    </div>
+
+
 		<div class="form-group">
     	<label for="titulo">Descrição:</label>
 			<textarea class="form-control" name="descricao" id="descricao"></textarea>
