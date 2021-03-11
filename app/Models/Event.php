@@ -9,7 +9,7 @@ class Event extends Model
 {
     use HasFactory;
 
-    protected $casts =[
-        'itens' => 'array'
-    ];
+    protected $casts =['itens' => 'array'];
+
+    protected $dates = ['data' => 'date'];
 }
