@@ -68,3 +68,8 @@ header{
 #intens-list{
     display: flex;
 }
+
+/* dashboard */
+#dashboard-events form{
+    display: inline-block;
+}
